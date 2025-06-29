@@ -8,7 +8,7 @@ dotenv.config();
 
 app.use(
   cors({
-    origin: "https://phenomenal-meerkat-c7f5d4.netlify.app",
+    origin: "https://internhire.netlify.app",
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
     credentials: true,
   })
